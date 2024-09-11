@@ -1,0 +1,683 @@
+@font-face {
+  font-family: Uber Light;
+  src: url(Assets/fonts/UberMove-Light.woff);
+}
+
+@font-face {
+  font-family: Uber Regular;
+  src: url(Assets/fonts/UberMove-Regular.woff);
+}
+
+@font-face {
+  font-family: Uber Medium;
+  src: url(Assets/fonts/UberMove-Medium.woff);
+}
+
+@font-face {
+  font-family: Uber Bold;
+  src: url(Assets/fonts/UberMove-Bold.woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.logo-sec {
+  width: 21%;
+  height: 40px;
+  margin-left: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Uber Regular;
+  position: relative;
+}
+
+.logo li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.nav-menu {
+  padding: 15px 1px 8px 1px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 2px;
+  text-align: center;
+  color: white;
+  display: block;
+  width: 70px;
+  font-size: 14px;
+  font-family: Uber Medium;
+  border: 0;
+  border-radius: 10px;
+  padding: 5px;
+}
+.nav-menu li a:hover{
+    background-color: rgb(56, 56, 56);
+}
+
+.nav-menu li svg {
+  display: flex;
+  position: absolute;
+  right: -25px;
+  bottom: 5px;
+}
+
+.nav-menu li :last-child {
+  margin-left: 25px;
+}
+
+.login-sec {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+  width: 14%;
+  height: 40px;
+  position: absolute;
+  right: 350px;
+}
+
+.login-sec ul {
+  display: flex;
+  gap: 5px;
+  margin-left: auto;
+  font-family: Uber Medium;
+  align-items: center;
+}
+
+.login-sec li a {
+  text-decoration: none;
+  padding: 5px 1px 5px 1px;
+  color: white;
+  font-size: 14px;
+  display: block;
+  width: 70px;
+  border: 0;
+  border-radius: 15px;
+}
+.login-sec li a:hover{
+    background-color: rgb(56, 56, 56);
+}
+
+.login-sec ul li {
+  font-size: 12px;
+  display: block;
+  width: 50px;
+}
+
+.login-sec ul svg {
+  position: absolute;
+  left: 48px;
+}
+
+.login-sec ul button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family: Uber Medium;
+  padding: 12px;
+  width: 80px;
+  border: 0;
+  border-radius: 25px;
+  margin-top: 12px;
+  margin-left: 13px;
+  cursor: pointer;
+}
+.login-sec ul button:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+/* Main Section  */
+
+main {
+  width: 100%;
+  height: 90vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* left section in main */
+.left-sec {
+  width: 40%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-sec .container {
+  width: 70%;
+  height: 85%;
+  display: flex;
+  margin-left: 100px;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: start;
+}
+
+.left-sec h1 {
+  color: white;
+  text-align: left;
+  font-size: 52px;
+  font-family: Uber Bold;
+}
+
+.left-sec p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-family: Uber Regular;
+}
+
+.left-sec button {
+  padding: 5px 8px 5px 0px;
+  border: 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  font-family: Uber Medium;
+  font-size: 16px;
+  cursor: pointer;
+}
+.left-sec button:hover{
+background-color: rgb(224, 223, 223); 
+}
+
+.btn-1 input {
+  padding: 14px 160px 14px 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.btn-2 input {
+  padding: 14px 179px 14px 5px;
+  border: none;
+  font-size: 16px;
+}
+
+/* right section in main */
+.right-sec {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 85%;
+}
+
+.right-sec img {
+  height: 100%;
+}
+
+.price-btn button {
+  padding: 14px 25px 14px 25px;
+}
+
+.location .btn-1 {
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+/* section 2 */
+
+.sec {
+  width: 100%;
+  height: 49vh;
+  display: flex;
+  justify-content: center;
+}
+
+.sec .container {
+  width: 60%;
+  align-items: start;
+  margin-top: 80px;
+}
+
+.sugstn {
+  width: 100%;
+  height: 40vh;
+}
+
+.sugstn h1 {
+  color: black;
+  font-size: 36px;
+  font-family: Uber Bold;
+}
+
+.sugstn .card {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.card .item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: 80%;
+  padding: 5px;
+  background-color: rgba(243, 243, 243, 0.891);
+  border: 0;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.card .item img {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  right: 5px;
+}
+
+.card .item h3 {
+  font-size: 16px;
+  font-family: Uber Regular;
+  margin: 20px 0 10px 10px;
+  color: rgb(0, 0, 0);
+}
+
+.card .item p {
+  max-width: 50%;
+  font-size: 12px;
+  font-family: Uber Regular;
+  margin: 20px 0 10px 13px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 40px;
+}
+
+.card .item button {
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  border: 0;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 22px;
+  left: 10px;
+}
+
+.card .item button:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+/* sub sections */
+
+.sec-2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60vh;
+  margin-top: 60px;
+}
+
+.sec2-container {
+  display: flex;
+  width: 60%;
+  height: 100vh;
+  gap: 100px;
+}
+
+.sec2-container .left-sec {
+  display: flex;
+  width: 50%;
+  height: 60%;
+}
+
+.sec2-container .left-sec img {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+
+.sec2-container .right-sec {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 60%;
+  position: relative;
+}
+
+.sec2-container .right-sec h1 {
+  color: black;
+  position: absolute;
+  top: 90px;
+  font-size: 52px;
+  font-family: Uber Bold;
+  max-width: 85%;
+}
+
+.sec2-container .right-sec p {
+  color: rgba(0, 0, 0, 0.745);
+  position: absolute;
+  bottom: 170px;
+  left: 50px;
+  font-size: 16px;
+  font-family: Uber Medium;
+  max-width: 75%;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.sec2-container .right-sec button {
+  background-color: black;
+  color: white;
+  padding: 15px 28px 15px 28px;
+  border: 0;
+  border-radius: 7px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 80px;
+  left: 50px;
+  cursor: pointer;
+  float: left;
+}
+.sec2-container .right-sec button:hover{
+    background-color: rgba(0, 0, 0, 0.819);
+}
+
+.sec2-container .right-sec p:last-child {
+  position: absolute;
+  bottom: 95px;
+  left: 210px;
+  text-decoration: underline 1px solid rgb(186, 186, 186);
+  text-underline-offset: 10px;
+}
+
+#last-h1 {
+  color: black;
+  position: absolute;
+  top: 210px;
+  left: 50px;
+  font-size: 36px;
+  font-family: Uber Bold;
+  max-width: 90%;
+}
+
+.final-sec {
+  width: 100%;
+  height: 42vh;
+  background-color: rgba(243, 243, 243, 0.891);
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.final-sec .container {
+  width: 60%;
+  height: 75%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.final-sec .container h1 {
+  font-size: 36px;
+  font-family: Uber Bold;
+  color: black;
+}
+
+.qr-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 60px;
+}
+
+.qr-container .qr-card {
+  width: 100%;
+  height: 95%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.qr-card img {
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.qr-card h2 {
+  color: black;
+  font-size: 24px;
+  font-family: Uber Bold;
+  position: absolute;
+  top: 80px;
+  right: 85px;
+}
+
+.qr-card p {
+  font-size: 16px;
+  font-family: Uber Regular;
+  color: black;
+  position: absolute;
+  bottom: 70px;
+  left: 193px;
+}
+
+.qr-card svg {
+  color: black;
+  position: absolute;
+  bottom: 75px;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.918);
+  display: flex;
+  justify-content: center;
+}
+
+footer .container {
+  width: 60%;
+  height: 90%;
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  position: relative;
+  flex-direction: column;
+  margin-top: 55px;
+}
+
+footer .container .top-sec {
+  width: 100%;
+  height: 25%;
+  position: relative;
+}
+
+footer .container .top-sec h2 {
+  font-size: 24px;
+  font-family: Uber Light;
+  position: absolute;
+  top: 40px;
+}
+
+footer .container p {
+  font-size: 16px;
+  font-family: Uber Medium;
+  position: absolute;
+  bottom: 1px;
+}
+
+footer .middle-sec {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin-top: 70px;
+  gap: 50px;
+}
+
+footer .middle-sec .grid {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+}
+
+.grid ul {
+  width: 100%;
+  height: 80%;
+  list-style-type: none;
+  font-family: Uber Regular;
+  font-size: 14px;
+}
+
+.grid h3 {
+  font-size: 18px;
+  font-family: Uber Bold;
+}
+
+footer .footer-last {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-last .icons {
+  width: 50%;
+  height: 30px;
+  margin-left: -10px;
+}
+
+.footer-last .lang {
+  width: 20%;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  display: flex;
+}
+
+.lang button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: Uber Medium;
+}
+
+.lang button svg {
+  margin-right: 8px;
+}
+
+.appstore {
+  width: 25%;
+  height: 60px;
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+}
+
+.appstore img {
+  width: 130px;
+  height: 50px;
+}
+
+.copyright {
+  width: 100%;
+  height: 50px;
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+}
+
+.copyright div p :first-child {
+  font-size: 12px;
+  font-family: Uber Light;
+  color: rgba(223, 223, 223, 0.636);
+  position: absolute;
+  top: 0;
+}
+
+.copyright .left-sec p {
+  font-size: 12px;
+  font-family: Uber Light;
+  color: rgba(223, 223, 223, 0.636);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.copyright .right-sec {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: right;
+}
+
+.copyright .right-sec ul {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.copyright .right-sec li {
+  font-size: 12px;
+  font-family: Uber Light;
+  color: rgba(223, 223, 223, 0.636);
+}
